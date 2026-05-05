@@ -18,5 +18,9 @@ I am currently a Ms student at Shandong University.
 
 # Publication
 
-* ICIC 2025 [Event Sequence Prediction via Hybrid Mamba Hawkes Process](https://dblp.org/rec/conf/icic/WangLZ25.html)。
+* [ICIC 2025] [Event Sequence Prediction via Hybrid Mamba Hawkes Process](https://dblp.org/rec/conf/icic/WangLZ25.html)
+
+# Honor
+
+
 
