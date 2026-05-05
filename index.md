@@ -14,7 +14,7 @@ I am currently a Ms student at Shandong University.
 # Research Interest
 * LLM Tuning
 
-# Publication
+# Publications
 * [ICIC 2025] [Event Sequence Prediction via Hybrid Mamba Hawkes Process](https://dblp.org/rec/conf/icic/WangLZ25.html)
 
 # Scholarship

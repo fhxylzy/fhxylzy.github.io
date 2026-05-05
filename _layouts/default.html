@@ -15,15 +15,10 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ Homepage | default: site.github.repository_name }}</a></h1>
-
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        {% if site.github.is_user_page %}
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub</a></p>
-        {% endif %}
+        <p class="view"><a href="{{ https://www.yuque.com/zylee }}">View My Blog</a></p>
       </header>
       <section>
 
@@ -31,10 +26,7 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Unlimited progress &mdash;</small></p>
+        <p>Unlimited progress &mdash;</p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
