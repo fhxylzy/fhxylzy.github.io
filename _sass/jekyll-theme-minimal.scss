@@ -56,8 +56,9 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+  width:1120px;
+  /* 原来是 margin: 0 auto; 居中显示。如果想靠左，可以改为具体的数值或百分比 */
+  margin:0 auto 0 5%;
 }
 
 blockquote {
@@ -186,7 +187,7 @@ strong {
 }
 
 section {
-  width:1000px;
+  width:800px;
   float:right;
   padding-bottom:50px;
 }
@@ -210,7 +211,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1180px) {
 
   div.wrapper {
     width:auto;
