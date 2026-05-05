@@ -1,4 +1,5 @@
+title: ZYLee
 logo: /assets/img/logo.png
-show_downloads: false
+show_downloads: False
 google_analytics:
 theme: jekyll-theme-minimal
