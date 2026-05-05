@@ -3,7 +3,7 @@ layout: default
 ---
 
 # About Me
-I am currently a Ms student at Shandong University.
+I am currently a MS student at Shandong University.
 
 | Time      | School         | Identity |
 |:-------------|:------------------|:------|
@@ -22,7 +22,8 @@ I am currently a Ms student at Shandong University.
 * 2023 Jilin Provincial Government Scholarship
 
 # Honor
-* [Second Prize] 11th National Undergraduate Digital Media Technology Works and Creative Competition
-* [Third Prize] 16th China Undergraduate Computer Design Competition
-* [Second Prize] Huawei 2026 Software Elite Challenge Jiangshan Division
-* [Silver Award] China Collegiate Programming Contest - National Invitational Tournament (Changchun)
+* 2026 [Second Prize] 12th Huawei Software Elite Challenge Jiangshan Division
+* 2024 [Silver Award] China Collegiate Programming Contest - National Invitational Tournament (Changchun)
+* 2023 [Second Prize] 11th National Undergraduate Digital Media Technology Works and Creative Competition
+* 2023 [Third Prize] 16th China Undergraduate Computer Design Competition
+
