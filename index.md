@@ -3,7 +3,7 @@ layout: default
 ---
 
 # About Me
-I am currently a MS student at Shandong University.
+I am currently a Master student at Shandong University.
 
 | Time      | School         | Identity |
 |:-------------|:------------------|:------|
