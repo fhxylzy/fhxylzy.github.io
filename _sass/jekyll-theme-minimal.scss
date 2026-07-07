@@ -3,7 +3,7 @@
 
 body {
   background-color: #fff;
-  padding: clamp(0.05rem, 0.35vw, 0.35rem) 5vw 1rem;
+  padding: clamp(0.45rem, 1.8vw, 1.5rem) clamp(1rem, 4vw, 3.125rem) clamp(1rem, 4vw, 3.125rem);
   /* 
     字号/行高 字体系列 
     你可以将 112.5% 修改为你想要的字号，例如 100% 或 125%
@@ -63,9 +63,9 @@ a:hover small {
 }
 
 .wrapper {
-  width: 100%;
-  margin: 0;
-  box-sizing: border-box;
+  width: min(90%, 82.5rem); //总页面宽度
+  /* 原来是 margin: 0 auto; 居中显示。如果想靠左，可以改为具体的数值或百分比 */
+  margin:0 auto 0 5%;
 }
 
 blockquote {
@@ -127,11 +127,10 @@ kbd {
 }
 
 header {
-  width:30vw;
-  max-width:none;
+  width:22%;
+  max-width:16.875rem;
   float:left;
   position:fixed;
-  left: 5vw;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -196,15 +195,15 @@ strong {
 }
 
 section {
-  width:60vw;
-  max-width:none;
+  width:74%;
+  max-width:62.5rem;
   float:right;
   padding-bottom:3.125rem;
 }
 
 .page-nav {
   position: sticky;
-  top: 0;
+  top: 0.1rem;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
@@ -213,8 +212,8 @@ section {
   align-items: center;
   width: 100%;
   box-sizing: border-box;
-  margin: 0 0 0.7rem;
-  padding: 0.4rem 0.65rem;
+  margin: 0 0 0.85rem;
+  padding: 0.45rem 0.7rem;
   background: rgba(255, 255, 255, 0.96);
   border: 0.0625rem solid #e5e5e5;
   border-radius: 1rem;
@@ -256,12 +255,12 @@ section {
   justify-content: space-between;
   padding: 0.7rem 0.85rem;
   border-radius: 0.9rem;
-  background: #ffffff;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
   border: 0.0625rem solid #e7ebf0;
   color: #1f2937;
   font-weight: 700;
   box-shadow: 0 0.35rem 0.9rem rgba(15, 23, 42, 0.04);
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
 }
 
 .sidebar-links .view a::after {
@@ -273,7 +272,7 @@ section {
 .sidebar-links .view a:hover,
 .sidebar-links .view a:focus {
   transform: translateY(-0.06rem);
-  background: #eef5ff;
+  background: linear-gradient(180deg, #ffffff 0%, #eef5ff 100%);
   border-color: #cfe0f2;
   color: #0b5cab;
   box-shadow: 0 0.5rem 1.1rem rgba(11, 92, 171, 0.08);
@@ -296,11 +295,10 @@ hr {
 }
 
 footer {
-  width:30vw;
-  max-width:none;
+  width:22%;
+  max-width:16.875rem;
   float:left;
   position:fixed;
-  left: 5vw;
   bottom:3.125rem;
   -webkit-font-smoothing:subpixel-antialiased;
 }
