@@ -208,24 +208,21 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.3rem;
+  gap: clamp(0.85rem, 2.8vw, 2.25rem);
   align-items: center;
   width: 100%;
   box-sizing: border-box;
   margin: 0 0 0.85rem;
-  padding: 0.45rem 0.7rem;
+  padding: 0.45rem 0 0.55rem;
   background: rgba(255, 255, 255, 0.96);
-  border: 0.0625rem solid #e5e5e5;
-  border-radius: 1rem;
-  box-shadow: 0 0.45rem 1.1rem rgba(0, 0, 0, 0.05);
+  border-bottom: 0.0625rem solid #e5e5e5;
   backdrop-filter: blur(0.5rem);
 }
 
 .page-nav a {
   display: inline-flex;
   align-items: center;
-  padding: 0.28rem 0.65rem;
-  border-radius: 999rem;
+  padding: 0.2rem 0;
   color: #2b2b2b;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -233,7 +230,6 @@ section {
 
 .page-nav a:hover,
 .page-nav a:focus {
-  background: #f2f5f9;
   color: #069;
 }
 
