@@ -3,7 +3,7 @@
 
 body {
   background-color: #fff;
-  padding: clamp(0.2rem, 1.1vw, 0.9rem) clamp(1rem, 4vw, 3.125rem) clamp(1rem, 4vw, 3.125rem);
+  padding: clamp(0.05rem, 0.35vw, 0.35rem) 0 1rem;
   /* 
     字号/行高 字体系列 
     你可以将 112.5% 修改为你想要的字号，例如 100% 或 125%
@@ -63,9 +63,9 @@ a:hover small {
 }
 
 .wrapper {
-  width: min(90%, 82.5rem); //总页面宽度
-  /* 原来是 margin: 0 auto; 居中显示。如果想靠左，可以改为具体的数值或百分比 */
-  margin:0 auto 0 5%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 blockquote {
@@ -127,10 +127,11 @@ kbd {
 }
 
 header {
-  width:22%;
-  max-width:16.875rem;
+  width:10%;
+  max-width:none;
   float:left;
   position:fixed;
+  left: 0;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -195,8 +196,8 @@ strong {
 }
 
 section {
-  width:74%;
-  max-width:62.5rem;
+  width:90%;
+  max-width:none;
   float:right;
   padding-bottom:3.125rem;
 }
@@ -295,10 +296,11 @@ hr {
 }
 
 footer {
-  width:22%;
-  max-width:16.875rem;
+  width:10%;
+  max-width:none;
   float:left;
   position:fixed;
+  left: 0;
   bottom:3.125rem;
   -webkit-font-smoothing:subpixel-antialiased;
 }
