@@ -22,13 +22,13 @@
         <a href="#publications">Publications</a>
         <a href="#scholarship">Scholarship</a>
         <a href="#honor">Honors</a>
-        <a href="{{ site.github.owner_url }}">GitHub</a>
-        <a href="https://www.yuque.com/zylee">Blog</a>
       </nav>
       <header>
         <img src="{{site.logo | relative_url}}" alt="Logo" />
-        <p class="view" style="margin-bottom: 1px;"><a href="{{ site.github.owner_url }}">View My GitHub</a></p>
-        <p class="view" style="margin-top: 1px;"><a href="https://www.yuque.com/zylee">View My Blog</a></p>
+        <div class="sidebar-links">
+          <p class="view"><a href="{{ site.github.owner_url }}">GitHub</a></p>
+          <p class="view"><a href="https://www.yuque.com/zylee">Blog</a></p>
+        </div>
       </header>
       <section>
       {{ content }}
