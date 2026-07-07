@@ -3,7 +3,7 @@
 
 body {
   background-color: #fff;
-  padding: clamp(0.45rem, 1.8vw, 1.5rem) clamp(1rem, 4vw, 3.125rem) clamp(1rem, 4vw, 3.125rem);
+  padding: clamp(0.05rem, 0.6vw, 0.5rem) clamp(1rem, 4vw, 3.125rem) clamp(1rem, 4vw, 3.125rem);
   /* 
     字号/行高 字体系列 
     你可以将 112.5% 修改为你想要的字号，例如 100% 或 125%
@@ -203,7 +203,7 @@ section {
 
 .page-nav {
   position: sticky;
-  top: 0.1rem;
+  top: 0;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
@@ -212,8 +212,8 @@ section {
   align-items: center;
   width: 100%;
   box-sizing: border-box;
-  margin: 0 0 0.85rem;
-  padding: 0.45rem 0.7rem;
+  margin: 0 0 0.6rem;
+  padding: 0.35rem 0.6rem;
   background: rgba(255, 255, 255, 0.96);
   border: 0.0625rem solid #e5e5e5;
   border-radius: 1rem;
@@ -255,7 +255,7 @@ section {
   justify-content: space-between;
   padding: 0.7rem 0.85rem;
   border-radius: 0.9rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
+  background: #ffffff;
   border: 0.0625rem solid #e7ebf0;
   color: #1f2937;
   font-weight: 700;
@@ -272,7 +272,7 @@ section {
 .sidebar-links .view a:hover,
 .sidebar-links .view a:focus {
   transform: translateY(-0.06rem);
-  background: linear-gradient(180deg, #ffffff 0%, #eef5ff 100%);
+  background: #eef5ff;
   border-color: #cfe0f2;
   color: #0b5cab;
   box-shadow: 0 0.5rem 1.1rem rgba(11, 92, 171, 0.08);
