@@ -203,12 +203,14 @@ section {
 
 .page-nav {
   position: sticky;
-  top: 1rem;
+  top: 0.75rem;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   align-items: center;
+  width: 100%;
+  box-sizing: border-box;
   margin: 0 0 1.5rem;
   padding: 0.75rem 1rem;
   background: rgba(255, 255, 255, 0.92);
@@ -275,10 +277,6 @@ footer {
     border-width:0.0625rem 0;
     padding:1.25rem 0;
     margin:0 0 1.25rem;
-  }
-
-  .page-nav {
-    top: 0.5rem;
   }
 
   header a small {
