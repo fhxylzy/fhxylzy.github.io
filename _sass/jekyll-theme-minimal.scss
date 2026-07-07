@@ -201,6 +201,38 @@ section {
   padding-bottom:3.125rem;
 }
 
+.page-nav {
+  position: sticky;
+  top: 1rem;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.92);
+  border: 0.0625rem solid #e5e5e5;
+  border-radius: 999rem;
+  box-shadow: 0 0.625rem 1.5rem rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(0.5rem);
+}
+
+.page-nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999rem;
+  color: #222;
+  font-weight: 600;
+}
+
+.page-nav a:hover,
+.page-nav a:focus {
+  background: #f4f4f4;
+  color: #069;
+}
+
 small {
   font-size:0.8125rem;
 }
@@ -245,6 +277,10 @@ footer {
     margin:0 0 1.25rem;
   }
 
+  .page-nav {
+    top: 0.5rem;
+  }
+
   header a small {
     display:inline;
   }
@@ -263,6 +299,11 @@ footer {
 
   header {
     padding:0;
+  }
+
+  .page-nav {
+    position: static;
+    border-radius: 1rem;
   }
 
   header ul, header p.view {

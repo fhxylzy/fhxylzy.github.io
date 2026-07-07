@@ -3,7 +3,7 @@ layout: default
 ---
 
 # About Me
-I am currently a Master student at Shandong University. Before that, I was a member of the BDDM Lab in CS at Yanbian University.
+I am currently a MS student at Shandong University. Before that, I was a member of the BDDM Lab in CS at Yanbian University.
 
 | Time      | School         | Identity |
 |:-------------|:------------------|:------|
