@@ -208,14 +208,14 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: clamp(0.85rem, 2.8vw, 2.25rem);
+  gap: clamp(1.25rem, 4vw, 3.5rem);
   align-items: center;
   width: 100%;
   box-sizing: border-box;
   margin: 0 0 0.85rem;
   padding: 0.45rem 0 0.55rem;
   background: rgba(255, 255, 255, 0.96);
-  border-bottom: 0.0625rem solid #e5e5e5;
+  border-bottom: 0.125rem solid #d2d8e0;
   backdrop-filter: blur(0.5rem);
 }
 
@@ -285,9 +285,9 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
-  height:0.0625rem;
-  margin:0 0 1.25rem;
+  background:#d2d8e0;
+  height:0.125rem;
+  margin:0 0 1.5rem;
 }
 
 footer {
@@ -317,8 +317,8 @@ footer {
   }
 
   section {
-    border:0.0625rem solid #e5e5e5;
-    border-width:0.0625rem 0;
+    border:0.125rem solid #d2d8e0;
+    border-width:0.125rem 0;
     padding:1.25rem 0;
     margin:0 0 1.25rem;
   }
