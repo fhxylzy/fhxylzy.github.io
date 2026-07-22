@@ -3,6 +3,7 @@
 
 body {
   background-color: #fff;
+  --page-side-padding: clamp(1rem, 4vw, 3.125rem);
   padding: clamp(3.5rem, 7vw, 4.5rem) clamp(1rem, 4vw, 3.125rem) clamp(1rem, 4vw, 3.125rem);
   /* 
     字号/行高 字体系列 
@@ -204,18 +205,18 @@ section {
 .page-nav {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: calc(var(--page-side-padding) + 5%);
+  right: auto;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: clamp(1.25rem, 4vw, 3.5rem);
   align-items: center;
-  width: auto;
+  width: min(90%, 82.5rem);
   box-sizing: border-box;
   margin: 0;
-  padding: 0.45rem clamp(1rem, 4vw, 3.125rem) 0.55rem;
+  padding: 0.45rem 0 0.55rem;
   background: rgba(255, 255, 255, 0.96);
   border-bottom: 0.125rem solid #d2d8e0;
   backdrop-filter: blur(0.5rem);
@@ -306,6 +307,12 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+  }
+
+  .page-nav {
+    left: var(--page-side-padding);
+    right: var(--page-side-padding);
+    width: auto;
   }
 
   header, section, footer {
