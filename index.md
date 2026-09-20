@@ -15,7 +15,28 @@ I am currently a MS student at Shandong University. Before that, I was a member 
 * LLM Tuning
 
 # Publications
-* [ICIC 2025] [Event Sequence Prediction via Hybrid Mamba Hawkes Process](https://link.springer.com/chapter/10.1007/978-981-96-9881-3_23)
+<div class="publication-list">
+  <article class="publication-card">
+    <div class="publication-card__topline">
+      <span class="publication-venue">ICIC 2025</span>
+      <span class="publication-type">Conference Paper</span>
+    </div>
+    <h3 class="publication-title">
+      <a href="https://link.springer.com/chapter/10.1007/978-981-96-9881-3_23">
+        Event Sequence Prediction via Hybrid Mamba Hawkes Process
+      </a>
+    </h3>
+    <p class="publication-authors">
+      <strong>Authors:</strong> Wang Yixiang, Li Zhengyang, Zhang Zhenguo
+    </p>
+    <p class="publication-meta">
+      International Conference on Intelligent Computing (ICIC), 2025
+    </p>
+    <a class="publication-link" href="https://link.springer.com/chapter/10.1007/978-981-96-9881-3_23">
+      View paper
+    </a>
+  </article>
+</div>
 
 # Scholarship
 * 2024 Undergraduate Student National Scholarship
