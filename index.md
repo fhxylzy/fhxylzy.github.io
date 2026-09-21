@@ -3,11 +3,27 @@ layout: default
 ---
 
 # About Me
-<section class="about-panel">
+<div class="about-panel">
   <p class="about-summary">
     I am currently a MS student at Shandong University. Before that, I was a member of the BDDM Lab in CS at Yanbian University.
   </p>
-</section>
+  <div class="education-list" aria-label="Education">
+    <article class="education-item">
+      <span class="education-period">2025-2028</span>
+      <div class="education-content">
+        <h3>Shandong University</h3>
+        <p>Master student</p>
+      </div>
+    </article>
+    <article class="education-item">
+      <span class="education-period">2021-2025</span>
+      <div class="education-content">
+        <h3>Yanbian University</h3>
+        <p>Undergraduate student</p>
+      </div>
+    </article>
+  </div>
+</div>
 
 # Research Interest
 * LLM Tuning
@@ -67,8 +83,6 @@ layout: default
       <span class="award-card__label">Second Prize</span>
       <h3>11th National Undergraduate Digital Media Technology Works and Creative Competition</h3>
     </div>
-  </article>
-  <article class="award-card award-card--honor">
     <div class="award-card__year">2023</div>
     <div class="award-card__content">
       <span class="award-card__label">Third Prize</span>
