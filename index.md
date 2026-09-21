@@ -7,22 +7,6 @@ layout: default
   <p class="about-summary">
     I am currently a MS student at Shandong University. Before that, I was a member of the BDDM Lab in CS at Yanbian University.
   </p>
-  <div class="education-list" aria-label="Education">
-    <article class="education-item">
-      <span class="education-period">2025-2028</span>
-      <div class="education-content">
-        <h3>Shandong University</h3>
-        <p>Master student</p>
-      </div>
-    </article>
-    <article class="education-item">
-      <span class="education-period">2021-2025</span>
-      <div class="education-content">
-        <h3>Yanbian University</h3>
-        <p>Undergraduate student</p>
-      </div>
-    </article>
-  </div>
 </section>
 
 # Research Interest
