@@ -23,20 +23,23 @@
         <a href="#scholarship">Scholarship</a>
         <a href="#honor">Honors</a>
       </nav>
-      <header>
-        <img src="{{site.logo | relative_url}}" alt="Logo" />
-        <div class="sidebar-links">
-          <p class="view"><a href="{{ site.github.owner_url }}">GitHub</a></p>
-          <p class="view"><a href="https://www.yuque.com/zylee">Blog</a></p>
-        </div>
-      </header>
-      <section>
+      <aside class="site-sidebar" aria-label="Profile">
+        <header class="site-header">
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <div class="sidebar-links">
+            <p class="view"><a href="{{ site.github.owner_url }}">GitHub</a></p>
+            <p class="view"><a href="https://www.yuque.com/zylee">Blog</a></p>
+          </div>
+        </header>
+        <footer class="site-footer">
+          <p class="site-footer__motto"><span aria-hidden="true">&infin;</span> Unlimited Progress</p>
+          <p class="site-footer__updated">Updated <time datetime="{{ site.time | date: '%Y-%m' }}">{{ site.time | date: "%Y%m" }}</time></p>
+        </footer>
+      </aside>
+      <main class="site-content">
       {{ content }}
 
-      </section>
-      <footer>
-        <p><small>Unlimited Progress &mdash; updated {{ site.time | date: "%Y%m" }}</small></p>
-      </footer>
+      </main>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
