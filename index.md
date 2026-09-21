@@ -35,12 +35,52 @@ I am currently a MS student at Shandong University. Before that, I was a member 
 </div>
 
 # Scholarship
-* 2024 Undergraduate Student National Scholarship
-* 2023 Jilin Provincial Government Scholarship
+<div class="award-list award-list--scholarship">
+  <article class="award-card">
+    <div class="award-card__year">2024</div>
+    <div class="award-card__content">
+      <span class="award-card__label">National Scholarship</span>
+      <h3>Undergraduate Student National Scholarship</h3>
+    </div>
+  </article>
+  <article class="award-card">
+    <div class="award-card__year">2023</div>
+    <div class="award-card__content">
+      <span class="award-card__label">Provincial Award</span>
+      <h3>Jilin Provincial Government Scholarship</h3>
+    </div>
+  </article>
+</div>
 
 # Honor
-* 2026 [Second Prize] 12th Huawei Software Elite Challenge Jiangshan Division
-* 2024 [Silver Award] China Collegiate Programming Contest - National Invitational Tournament (Changchun)
-* 2023 [Second Prize] 11th National Undergraduate Digital Media Technology Works and Creative Competition
-* 2023 [Third Prize] 16th China Undergraduate Computer Design Competition
+<div class="award-list award-list--honor">
+  <article class="award-card award-card--honor">
+    <div class="award-card__year">2026</div>
+    <div class="award-card__content">
+      <span class="award-card__label">Second Prize</span>
+      <h3>12th Huawei Software Elite Challenge Jiangshan Division</h3>
+    </div>
+  </article>
+  <article class="award-card award-card--honor">
+    <div class="award-card__year">2024</div>
+    <div class="award-card__content">
+      <span class="award-card__label">Silver Award</span>
+      <h3>China Collegiate Programming Contest - National Invitational Tournament (Changchun)</h3>
+    </div>
+  </article>
+  <article class="award-card award-card--honor">
+    <div class="award-card__year">2023</div>
+    <div class="award-card__content">
+      <span class="award-card__label">Second Prize</span>
+      <h3>11th National Undergraduate Digital Media Technology Works and Creative Competition</h3>
+    </div>
+  </article>
+  <article class="award-card award-card--honor">
+    <div class="award-card__year">2023</div>
+    <div class="award-card__content">
+      <span class="award-card__label">Third Prize</span>
+      <h3>16th China Undergraduate Computer Design Competition</h3>
+    </div>
+  </article>
+</div>
 
