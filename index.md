@@ -17,9 +17,6 @@ I am currently a MS student at Shandong University. Before that, I was a member 
 # Publications
 <div class="publication-list">
   <article class="publication-card">
-    <div class="publication-card__topline">
-      <span class="publication-venue">ICIC 2025</span>
-    </div>
     <h3 class="publication-title">
       <a href="https://link.springer.com/chapter/10.1007/978-981-96-9881-3_23">
         Event Sequence Prediction via Hybrid Mamba Hawkes Process
@@ -39,14 +36,12 @@ I am currently a MS student at Shandong University. Before that, I was a member 
   <article class="award-card">
     <div class="award-card__year">2024</div>
     <div class="award-card__content">
-      <span class="award-card__label">National Scholarship</span>
       <h3>Undergraduate Student National Scholarship</h3>
     </div>
   </article>
   <article class="award-card">
     <div class="award-card__year">2023</div>
     <div class="award-card__content">
-      <span class="award-card__label">Provincial Award</span>
       <h3>Jilin Provincial Government Scholarship</h3>
     </div>
   </article>
