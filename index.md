@@ -76,6 +76,12 @@ description: Academic homepage. Research in large language model tuning.
       <h3 class="group-title">Scholarships</h3>
       <ul class="award-list">
         <li class="award">
+          <time class="award-year" datetime="2026">2026</time>
+          <div class="award-detail">
+            <p class="award-name">First-Class Academic Scholarship, Shandong University</p>
+          </div>
+        </li>
+        <li class="award">
           <time class="award-year" datetime="2024">2024</time>
           <div class="award-detail">
             <p class="award-name">Undergraduate Student National Scholarship</p>

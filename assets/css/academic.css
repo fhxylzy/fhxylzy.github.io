@@ -326,8 +326,9 @@ h1,
 .group-title {
   padding-top: 9px;
   color: var(--ink);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
+  line-height: 22.75px;
 }
 
 .award-list {
@@ -359,6 +360,7 @@ h1,
 }
 
 .award-name {
+  font-family: var(--serif);
   font-size: 14px;
   line-height: 23.4px;
 }
