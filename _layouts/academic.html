@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo title=false %}
+    <title>{{ page.title | default: site.title | escape }}</title>
+    <link rel="icon" href="{{ site.logo | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/academic.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page">
+      <header class="site-header">
+        <nav class="navigation" aria-label="Main navigation">
+          <a href="#about" aria-current="location">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#honors">Honors</a>
+        </nav>
+      </header>
+      <main id="main">
+        {{ content }}
+      </main>
+      <footer class="site-footer">
+        <img class="footer-mark" src="{{ '/assets/img/mobius.svg' | relative_url }}" width="52" height="30" alt="Mobius strip">
+        <p>Unlimited progress.</p>
+      </footer>
+    </div>
+    <dialog id="architecture-dialog" class="figure-dialog" aria-labelledby="architecture-title">
+      <div class="dialog-heading">
+        <h2 id="architecture-title">Hybrid Mamba Hawkes Process</h2>
+        <button class="dialog-close" type="button">Close</button>
+      </div>
+      <img
+        src="{{ '/assets/img/hybrid-mamba-hawkes.png' | relative_url }}"
+        width="710"
+        height="272"
+        alt="Full architecture figure: FMamba, the event sequence prediction model, and Mamba-2."
+      >
+    </dialog>
+  </body>
+</html>

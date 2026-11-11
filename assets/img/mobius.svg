@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="60" viewBox="0 0 104 60" fill="none">
+  <title>Mobius strip</title>
+  <path d="M13 17C22 8 35 13 48 25L58 35C69 46 80 45 87 36C93 28 90 17 82 14C72 10 64 17 55 26L45 36C34 47 23 48 15 41C8 35 6 24 13 17Z" fill="#e0eae3" stroke="#527361" stroke-width="1.7"/>
+  <path d="M16 23C23 17 31 21 42 31L53 41C67 54 82 52 90 41C94 35 95 28 92 22C93 28 90 34 85 37C77 43 68 39 59 30L48 20C35 8 22 6 13 15C7 21 6 29 9 36C8 30 11 26 16 23Z" fill="#a8c0ae"/>
+  <path d="M13 17C22 8 35 13 48 25L58 35C69 46 80 45 87 36" stroke="#236957" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M16 23C23 17 31 21 42 31L53 41C67 54 82 52 90 41" stroke="#527361" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M56 25L48 33L55 39L63 31L56 25Z" fill="#ffffff"/>
+  <path d="M46 23L58 35C64 41 71 44 77 43L78 37C72 38 67 35 61 29L51 19L46 23Z" fill="#e0eae3"/>
+  <path d="M46 23L58 35C64 41 71 44 77 43M51 19L61 29C67 35 72 38 78 37" stroke="#236957" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
